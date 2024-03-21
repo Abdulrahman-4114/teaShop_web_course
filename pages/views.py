@@ -6,7 +6,9 @@ def index(request):
    return render(request, 'pages/index.html')
 
 def about(request):
-    pass
+    return render(request, 'pages/about.html')
+
+
 
     
 # Create your views here.
